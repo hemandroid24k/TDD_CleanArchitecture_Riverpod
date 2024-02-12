@@ -3,7 +3,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:http/http.dart' as http;
 import 'package:tdd_clean_architecture_riverpod/core/error/exceptions.dart';
 import 'package:tdd_clean_architecture_riverpod/core/network/network_info.dart';
-import 'package:tdd_clean_architecture_riverpod/core_impl/network_IO_service_impl.dart';
+import 'package:tdd_clean_architecture_riverpod/core_impl/network_io_service_impl.dart';
 
 class MockHttpClient extends Mock implements http.Client {}
 class MockNetworkInfo extends Mock implements NetworkInfo {}

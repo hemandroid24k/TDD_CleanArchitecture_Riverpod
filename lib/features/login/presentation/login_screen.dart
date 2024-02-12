@@ -74,6 +74,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         if (result.success != null) {
                           final router = ref.watch(routerProvider);
                           router.go(AppRoutes().homePage);
+                        } else if(result.error != null){
+                          print('No internet is available');
                         }
                       }
                     },

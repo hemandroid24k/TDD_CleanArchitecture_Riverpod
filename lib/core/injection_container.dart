@@ -2,7 +2,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 import 'package:tdd_clean_architecture_riverpod/core/routes/app_router_config.dart';
-import 'package:tdd_clean_architecture_riverpod/core_impl/network_IO_service_impl.dart';
+import 'package:tdd_clean_architecture_riverpod/core_impl/network_io_service_impl.dart';
 import 'package:tdd_clean_architecture_riverpod/core_impl/network_info_impl.dart';
 
 final internetConnectionChecker = Provider((ref) => Connectivity());
